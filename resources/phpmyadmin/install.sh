@@ -1,7 +1,7 @@
 php /var/www/pterodactyl/artisan down
 cd /var/www/pterodactyl/public
 rm -rf pma_redirect.html
-wget https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/phpmyadmin/pma_redirect.html
+wget https://raw.githubusercontent.com/NavitaBurhan/PteroFreeStuffinstaller/V1.10.1/resources/phpmyadmin/pma_redirect.html
 
 echo "Do you already have Phpmyadmin installed? y/n "
 read answer
@@ -42,7 +42,7 @@ fi
 
 cd /var/www/pterodactyl/resources/scripts/components/server/databases
 rm -rf DatabaseRow.tsx
-wget https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/phpmyadmin/DatabaseRow.tsx
+wget https://raw.githubusercontent.com/NavitaBurhan/PteroFreeStuffinstaller/V1.10.1/resources/phpmyadmin/DatabaseRow.tsx
 #clear
 cd /var/www/pterodactyl
 yarn run build:production
