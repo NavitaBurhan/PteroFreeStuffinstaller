@@ -9,7 +9,7 @@ echo
 echo "* Pterodactyl-Freestuff-Installer Script @ $SCRIPT_VERSION"
 echo
 echo "* Copyright (C) 2021 - 2023."
-echo "* https://github.com/Sigma-Production/PteroFreeStuffinstaller"
+echo "* https://github.com/NavitaBurhan/PteroFreeStuffinstaller"
 echo
 echo "* This script is not associated with the official Pterodactyl Project."
 #print_brake 70
@@ -24,30 +24,30 @@ echo "7. Close / Cancel"
 read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
-    bash <(curl -s https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/DarkNColor.sh)
+    bash <(curl -s https://raw.githubusercontent.com/NavitaBurhan/PteroFreeStuffinstaller/V1.10.1/resources/DarkNColor.sh)
 fi
 if [ $choice == "2" ]
     then
-    bash <(curl -s https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/Addons.sh)
+    bash <(curl -s https://raw.githubusercontent.com/NavitaBurhan/PteroFreeStuffinstaller/V1.10.1/resources/Addons.sh)
 fi
 if [ $choice == "3" ]
     then
     echo "Installing Particles themes..."
-    bash <(curl -sSL https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/ParticleJS/install.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/NavitaBurhan/PteroFreeStuffinstaller/V1.10.1/resources/ParticleJS/install.sh)
 fi
 if [ $choice == "4" ]
     then
     echo "Installing Minecraft Theme..."
-    bash <(curl -sSL https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/mcTheme/install.sh)
+    bash <(curl -sSL https://raw.githubusercontent.com/NavitaBurhan/PteroFreeStuffinstaller/V1.10.1/resources/mcTheme/install.sh)
 fi
 if [ $choice == "5" ]
     then
     echo "Installing Animated login"
-    bash <(curl -s https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/login/install.sh)
+    bash <(curl -s https://raw.githubusercontent.com/NavitaBurhan/PteroFreeStuffinstaller/V1.10.1/resources/login/install.sh)
 fi
 if [ $choice == "6" ]
     then
-    bash <(curl -s https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/restore.sh)
+    bash <(curl -s https://raw.githubusercontent.com/NavitaBurhan/PteroFreeStuffinstaller/V1.10.1/resources/restore.sh)
 fi
 if [ $choice == "7" ]
     then
